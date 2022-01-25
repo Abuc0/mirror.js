@@ -100,6 +100,13 @@ export const DEFAULT_MIRROR_OPTIONS: MirrorOptions = {
       pair: 'terra1uenpalqlmfaf4efgtqsvzpa3gh898d9h2a232g',
       lpToken: 'terra1mtvslkm2tgsmh908dsfksnqu7r7lulh24a6knv'
     },
+    mAMD: {
+      symbol: "mAMD",
+      name: "Advanced Micro Devices, Inc.",
+      token: "terra18ej5nsuu867fkx4tuy2aglpvqjrkcrjjslap3z",
+      pair: "terra18cxcwv0theanknfztzww8ft9pzfgkmf2xrqy23",
+      lpToken: "terra1m8mr9u3su46ezxwf7z7xnvm0jsapl2jd8vgefh"
+    },
     mAMZN: {
       symbol: 'mAMZN',
       name: 'Amazon.com, Inc.',
@@ -128,6 +135,20 @@ export const DEFAULT_MIRROR_OPTIONS: MirrorOptions = {
       pair: 'terra1prfcyujt9nsn5kfj5n925sfd737r2n8tk5lmpv',
       lpToken: 'terra1d34edutzwcz6jgecgk26mpyynqh74j3emdsnq5'
     },
+    mCOIN: {
+      symbol: "mCOIN",
+      name: "Coinbase Global, Inc.",
+      token: "terra18wayjpyq28gd970qzgjfmsjj7dmgdk039duhph",
+      pair: "terra1h7t2yq00rxs8a78nyrnhlvp0ewu8vnfnx5efsl",
+      lpToken: "terra1ktckr8v7judrr6wkwv476pwsv8mht0zqzw2t0h"
+    },
+    mDOT: {
+      symbol: "mDOT",
+      name: "Polkadot",
+      token: "terra19ya4jpvjvvtggepvmmj6ftmwly3p7way0tt08r",
+      pair: "terra17rvtq0mjagh37kcmm4lmpz95ukxwhcrrltgnvc",
+      lpToken: "terra1p60datmmf25wgssguv65ltds3z6ea3me74nm2e"
+    },
     mETH: {
       symbol: 'mETH',
       name: 'Ether',
@@ -142,12 +163,12 @@ export const DEFAULT_MIRROR_OPTIONS: MirrorOptions = {
       pair: 'terra1yl2atgxw422qxahm02p364wtgu7gmeya237pcs',
       lpToken: 'terra1jh2dh4g65hptsrwjv53nhsnkwlw8jdrxaxrca0'
     },
-    mGME: {
-      symbol: 'mGME',
-      name: 'GameStop Corp',
-      token: 'terra1m6j6j9gw728n82k78s0j9kq8l5p6ne0xcc820p',
-      pair: 'terra17eakdtane6d2y7y6v0s79drq7gnhzqan48kxw7',
-      lpToken: 'terra1azk43zydh3sdxelg3h4csv4a4uef7fmjy0hu20'
+    mGLXY: {
+      symbol: "mGLXY",
+      name: "Galaxy Digital Holdings Ltd",
+      token: "terra1l5lrxtwd98ylfy09fn866au6dp76gu8ywnudls",
+      pair: "terra1ze5f2lm5clq2cdd9y2ve3lglfrq6ap8cqncld8",
+      lpToken: "terra1pjgzke6h5v4nz978z3a92gqajwhn8yyh5kv4zv"
     },
     mGOOGL: {
       symbol: 'mGOOGL',
@@ -163,12 +184,33 @@ export const DEFAULT_MIRROR_OPTIONS: MirrorOptions = {
       pair: 'terra108ukjf6ekezuc52t9keernlqxtmzpj4wf7rx0h',
       lpToken: 'terra17smg3rl9vdpawwpe7ex4ea4xm6q038gp2chge5'
     },
+    mHOOD: {
+      symbol: "mHOOD",
+      name: "Robinhood Markets, Inc.",
+      token: "terra18yqdfzfhnguerz9du5mnvxsh5kxlknqhcxzjfr",
+      pair: "terra1lr6rglgd50xxzqe6l5axaqp9d5ae3xf69z3qna",
+      lpToken: "terra1s0dgcsdy9kgunnf3gnwl40uwy9rxtmc39mhy2m"
+    },
     mIAU: {
       symbol: 'mIAU',
       name: 'iShares Gold Trust',
       token: 'terra10h7ry7apm55h4ez502dqdv9gr53juu85nkd4aq',
       pair: 'terra15kkctr4eug9txq7v6ks6026yd4zjkrm3mc0nkp',
       lpToken: 'terra1ndlx5ndkknvmgj6s5ggmdlhjjsz0w6wrnwn5cf'
+    },
+    mJNJ: {
+      symbol: "mJNJ",
+      name: "Johnson & Johnson",
+      token: "terra1ptdxmj3xmmljzx02nr4auwfuelmj0cnkh8egs2",
+      pair: "terra17mu25k7a2lj7pn8vjgtc5vjvah6gkt6njgh4q5",
+      lpToken: "terra1yjvlgj80jkzwakqv65tzfwctdehqav4jujgx37"
+    },
+    mKO: {
+      symbol: "mKO",
+      name: "Coca-Cola",
+      token: "terra1qsnj5gvq8rgs7yws8x5u02gwd5wvtu4tks0hjm",
+      pair: "terra1y7vdguewgus669kcxjlwughyxtdt3kheys05q0",
+      lpToken: "terra10t6a287n4flvjpvdwuhre79ws9plufaagdj4r4"
     },
     mMSFT: {
       symbol: 'mMSFT',
@@ -184,6 +226,27 @@ export const DEFAULT_MIRROR_OPTIONS: MirrorOptions = {
       pair: 'terra1yppvuda72pvmxd727knemvzsuergtslj486rdq',
       lpToken: 'terra1mwu3cqzvhygqg7vrsa6kfstgg9d6yzkgs6yy3t'
     },
+    mNIO: {
+      symbol: "mNIO",
+      name: "NIO Inc.",
+      token: "terra1dj2cj02zak0nvwy3uj9r9dhhxhdwxnw6psse6p",
+      pair: "terra180jp452au9sfwq4kuxtsd9q2wzjfu6v9ghrkax",
+      lpToken: "terra1je3y5wnfm5v884j3vdegcc8045kje39g6aflce"
+    },
+    mNVDA: {
+      symbol: "mNVDA",
+      name: "NVIDIA Corporation",
+      token: "terra1drsjzvzej4h4qlehcfwclxg4w5l3h5tuvd3jd8",
+      pair: "terra132qjgv0evru0em6v2rcwakgxzafjhwfz7fc7hh",
+      lpToken: "terra1495vu7s83d8kyqk4lzawajqt5d27pjfd8ym398"
+    },
+    mPYPL: {
+      symbol: "mPYPL",
+      name: "PayPal Holdings Inc",
+      token: "terra1rh2907984nudl7vh56qjdtvv7947z4dujj92sx",
+      pair: "terra1xskmucgxkzf3quwry3dazerw74q4aqplu0vgg4",
+      lpToken: "terra17rm53s5vhjpfrjkhappmswczcmhl8zqdwlfwtm"
+    },
     mQQQ: {
       symbol: 'mQQQ',
       name: 'Invesco QQQ Trust',
@@ -191,12 +254,33 @@ export const DEFAULT_MIRROR_OPTIONS: MirrorOptions = {
       pair: 'terra1dkc8075nv34k2fu6xn6wcgrqlewup2qtkr4ymu',
       lpToken: 'terra16j09nh806vaql0wujw8ktmvdj7ph8h09ltjs2r'
     },
+    mSBUX: {
+      symbol: "mSBUX",
+      name: "Starbucks Corporation",
+      token: "terra1246zy658dfgtausf0c4a6ly8sc2e285q4kxqga",
+      pair: "terra1lvkkwhzgchq9n9xafag9u4q96q057vge0q87zd",
+      lpToken: "terra1snem5zhmzj3q4wzm59tf98f0czsf6hcfpf703z"
+    },
     mSLV: {
       symbol: 'mSLV',
       name: 'iShares Silver Trust',
       token: 'terra1kscs6uhrqwy6rx5kuw5lwpuqvm3t6j2d6uf2lp',
       pair: 'terra1f6d9mhrsl5t6yxqnr4rgfusjlt3gfwxdveeyuy',
       lpToken: 'terra178cf7xf4r9d3z03tj3pftewmhx0x2p77s0k6yh'
+    },
+    mSPY: {
+      symbol: "mSPY",
+      name: "SPDR S&P 500",
+      token: "terra1aa00lpfexyycedfg5k2p60l9djcmw0ue5l8fhc",
+      pair: "terra14hklnm2ssaexjwkcfhyyyzvpmhpwx6x6lpy39s",
+      lpToken: "terra1jqqegd35rg2gjde54adpj3t6ecu0khfeaarzy9"
+    },
+    mSQ: {
+      symbol: "mSQ",
+      name: "Square, Inc.",
+      token: "terra1u43zu5amjlsgty5j64445fr9yglhm53m576ugh",
+      pair: "terra1u3pknaazmmudfwxsclcfg3zy74s3zd3anc5m52",
+      lpToken: "terra1mv3pgkzs4krcennqj442jscg6jv84cejrs50n2"
     },
     mTSLA: {
       symbol: 'mTSLA',
@@ -225,48 +309,6 @@ export const DEFAULT_MIRROR_OPTIONS: MirrorOptions = {
       token: 'terra19cmt6vzvhnnnfsmccaaxzy2uaj06zjktu6yzjx',
       pair: 'terra1krny2jc0tpkzeqfmswm7ss8smtddxqm3mxxsjm',
       lpToken: 'terra1ekd58y58vq4gmxlzpc27dwuhw7wmms928ftuep'
-    },
-    mSPY: {
-      symbol: 'mSPY',
-      name: 'SPDR S&P 500',
-      token: 'terra1aa00lpfexyycedfg5k2p60l9djcmw0ue5l8fhc',
-      pair: 'terra14hklnm2ssaexjwkcfhyyyzvpmhpwx6x6lpy39s',
-      lpToken: 'terra1jqqegd35rg2gjde54adpj3t6ecu0khfeaarzy9'
-    },
-    mCOIN: {
-      symbol: 'mCOIN',
-      name: 'Coinbase Global, Inc.',
-      token: 'terra18wayjpyq28gd970qzgjfmsjj7dmgdk039duhph',
-      pair: 'terra1h7t2yq00rxs8a78nyrnhlvp0ewu8vnfnx5efsl',
-      lpToken: 'terra1ktckr8v7judrr6wkwv476pwsv8mht0zqzw2t0h'
-    },
-    mDOT: {
-      symbol: 'mCOIN',
-      name: 'Polkadot',
-      token: 'terra19ya4jpvjvvtggepvmmj6ftmwly3p7way0tt08r',
-      pair: 'terra17rvtq0mjagh37kcmm4lmpz95ukxwhcrrltgnvc',
-      lpToken: 'terra1p60datmmf25wgssguv65ltds3z6ea3me74nm2e'
-    },
-    mHOOD: {
-      symbol: 'mHOOD',
-      name: 'Robinhood Markets, Inc.',
-      token: 'terra18yqdfzfhnguerz9du5mnvxsh5kxlknqhcxzjfr',
-      pair: 'terra1lr6rglgd50xxzqe6l5axaqp9d5ae3xf69z3qna',
-      lpToken: 'terra1s0dgcsdy9kgunnf3gnwl40uwy9rxtmc39mhy2m'
-    },
-    mSQ: {
-      symbol: 'mSQ',
-      name: 'Square, Inc.',
-      token: 'terra1u43zu5amjlsgty5j64445fr9yglhm53m576ugh',
-      pair: 'terra1u3pknaazmmudfwxsclcfg3zy74s3zd3anc5m52',
-      lpToken: 'terra1mv3pgkzs4krcennqj442jscg6jv84cejrs50n2'
-    },
-    mAMD: {
-      symbol: 'mAMD',
-      name: 'Advanced Micro Devices, Inc.',
-      token: 'terra18ej5nsuu867fkx4tuy2aglpvqjrkcrjjslap3z',
-      pair: 'terra18cxcwv0theanknfztzww8ft9pzfgkmf2xrqy23',
-      lpToken: 'terra1m8mr9u3su46ezxwf7z7xnvm0jsapl2jd8vgefh'
     }
   }
 };
